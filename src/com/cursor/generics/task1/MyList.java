@@ -10,7 +10,7 @@ public class MyList<T extends Number> {
         listOfNumbers.add(parameter);
     }
 
-    public T largest() {
+    public T findLargestValue() {
         T largestValue = null;
         if (listOfNumbers.size() > 0) {
             largestValue = listOfNumbers.get(0);
@@ -23,7 +23,7 @@ public class MyList<T extends Number> {
         return largestValue;
     }
 
-    public T smallest() {
+    public T findSmallestValue() {
         T smallestValue = null;
         if (listOfNumbers.size() > 0) {
             smallestValue = listOfNumbers.get(0);

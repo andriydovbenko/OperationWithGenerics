@@ -8,7 +8,7 @@ public class ExecutionTask1 {
         for (Float digit : arrayOfFloat) {
             listOfFloat.add(digit);
         }
-        System.out.println("\nThe largest digit in list is: " + listOfFloat.largest() +
-                "\nThe smallest digit in list is: " + listOfFloat.smallest());
+        System.out.println("\nThe largest digit in list is: " + listOfFloat.findLargestValue() +
+                "\nThe smallest digit in list is: " + listOfFloat.findSmallestValue());
     }
 }
