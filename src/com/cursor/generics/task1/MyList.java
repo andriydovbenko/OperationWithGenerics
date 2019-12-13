@@ -1,9 +1,10 @@
 package com.cursor.generics.task1;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MyList<T extends Number> {
-    private ArrayList<T> listOfNumbers = new ArrayList<>();
+    private List<T> listOfNumbers = new ArrayList<>();
 
     public void add(T parameter) {
         listOfNumbers.add(parameter);
