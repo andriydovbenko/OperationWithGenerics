@@ -14,5 +14,8 @@ public class MyList<T extends Number & Comparable<? super T>> {
     public T findLargestValue() {
         return listOfNumbers.isEmpty() ? null : Collections.max(listOfNumbers);
     }
-    
+
+    public T findSmallestValue() {
+        return listOfNumbers.isEmpty() ? null : Collections.min(listOfNumbers);
+    }
 }
